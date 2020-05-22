@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <div class="hola">
+      <hr id="hr1" />
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background: rgba(233, 231, 231, 0.9);"
+        id="navbarr"
+      >
+        <a class="navbar-brand d-none" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="position: relative; top: 8px;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" id="a1" [routerLink]="['home']"
+                >Home <span class="sr-only">(current)</span></a
+              >
+              <hr id="hr2" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="a1" [routerLink]="['registry']"
+                >Registry</a
+              >
+              <hr id="hr2" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="a1" [routerLink]="['gallery']">Gallery</a>
+              <hr id="hr2" />
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="a1"
+                href="../home/home.component.html#blog"
+                >Blog</a
+              >
+              <hr id="hr2" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="a1" [routerLink]="['contact']">Contact</a>
+              <hr id="hr2" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

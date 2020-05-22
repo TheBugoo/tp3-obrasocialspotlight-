@@ -1,0 +1,30 @@
+body {
+  background-image: url(../../../assets/imagenes/PapelTapiz3tp1.png);
+}
+hr {
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border: 0;
+  top: 7px;
+}
+#indicadores li {
+  border-radius: 50px;
+  height: 15px;
+  position: relative;
+  top: 60px;
+}
+#carousel2 {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+@media all and (max-width: 770px) {
+  body {
+    height: 920px;
+  }
+}
+.slider {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(128, 255, 0, 0.596);
+}
